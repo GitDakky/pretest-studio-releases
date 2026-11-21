@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PreTest Studio — Download for Mac, Windows &amp; Chromebook</title>
+    <meta
+      name="description"
+      content="Download PreTest Studio for Apple Mac (Signed & Notarised), Windows 10/11, or launch immediately offline on Chromebook, Chrome, Android, and iPad."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #fbf8f1;
+        --paper: #ffffff;
+        --paper-warm: #f3ede0;
+        --forest: #143628;
+        --forest-deep: #0b1f17;
+        --forest-mid: #1f4d3a;
+        --gold: #c9a24b;
+        --gold-soft: #f3e6c4;
+        --terra: #9e4424;
+        --terra-soft: #fceee7;
+        --win: #1b3d52;
+        --ink: #182720;
+        --muted: #4b5d54;
+        --border: rgba(20, 54, 40, 0.14);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "Lexend", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.62;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .wrap {
+        max-width: 1040px;
+        margin: 0 auto;
+        padding: 32px 22px 72px;
+      }
+
+      .hero {
+        background: linear-gradient(135deg, var(--forest-deep), var(--forest) 58%, var(--forest-mid));
+        color: #fbf8f1;
+        border-radius: 22px;
+        padding: 44px 40px 40px;
+        border: 1.5px solid rgba(201, 162, 75, 0.42);
+        box-shadow: 0 20px 50px rgba(11, 31, 23, 0.16);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .hero::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 6px;
+        background: linear-gradient(90deg, #f0d48c, #c9a24b, #a67e2e);
+      }
+
+      .eyebrow {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: #f0d48c;
+        margin-bottom: 10px;
+      }
+
+      .hero h1 {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(32px, 5vw, 46px);
+        line-height: 1.12;
+        margin: 0 0 14px;
+        color: #fbf8f1;
+      }
+
+      .hero p {
+        font-size: 16.5px;
+        max-width: 720px;
+        color: #d9e9e1;
+        margin: 0 0 24px;
+      }
+
+      .trust-strip {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .trust-pill {
+        background: rgba(10, 30, 22, 0.72);
+        border: 1px solid rgba(212, 178, 106, 0.5);
+        color: #fbf8f1;
+        font-size: 12.5px;
+        font-weight: 600;
+        padding: 6px 14px;
+        border-radius: 999px;
+      }
+
+      .section-title {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 28px;
+        color: var(--forest);
+        margin: 44px 0 8px;
+      }
+
+      .section-sub {
+        color: var(--muted);
+        margin: 0 0 24px;
+        font-size: 15px;
+      }
+
+      .grid-3 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+      }
+
+      .card {
+        background: var(--paper);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: 26px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 6px 24px rgba(20, 54, 40, 0.05);
+      }
+
+      .card-tag {
+        display: inline-block;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        padding: 4px 10px;
+        border-radius: 999px;
+        margin-bottom: 12px;
+      }
+
+      .tag-mac {
+        background: #e6f2ec;
+        color: #143628;
+      }
+
+      .tag-win {
+        background: #e6eff5;
+        color: #16374b;
+      }
+
+      .tag-chrome {
+        background: var(--terra-soft);
+        color: #7c3016;
+      }
+
+      .card h2 {
+        margin: 0 0 8px;
+        font-size: 21px;
+        color: var(--forest);
+      }
+
+      .card p {
+        margin: 0 0 18px;
+        font-size: 14px;
+        color: var(--muted);
+      }
+
+      .btn {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 14.5px;
+        padding: 13px 18px;
+        border-radius: 12px;
+        transition: transform 0.12s ease, opacity 0.12s ease;
+      }
+
+      .btn:hover {
+        transform: translateY(-1px);
+        opacity: 0.94;
+      }
+
+      .btn-mac {
+        background: var(--forest);
+        color: #fbf8f1;
+      }
+
+      .btn-win {
+        background: var(--win);
+        color: #fbf8f1;
+      }
+
+      .btn-chrome {
+        background: var(--terra);
+        color: #fbf8f1;
+      }
+
+      .meta-note {
+        margin-top: 10px;
+        font-size: 12px;
+        color: var(--muted);
+        text-align: center;
+      }
+
+      .steps-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+        gap: 18px;
+      }
+
+      .step-box {
+        background: var(--paper);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 22px 22px 20px;
+      }
+
+      .step-box h3 {
+        margin: 0 0 10px;
+        font-size: 17px;
+        color: var(--forest);
+      }
+
+      .step-box ol {
+        margin: 0;
+        padding-left: 20px;
+        font-size: 13.8px;
+        color: var(--ink);
+      }
+
+      .step-box li {
+        margin-bottom: 8px;
+      }
+
+      .callout {
+        background: var(--terra-soft);
+        border-left: 4px solid var(--terra);
+        padding: 10px 12px;
+        border-radius: 8px;
+        font-size: 12.8px;
+        color: #5d2310;
+        margin-top: 10px;
+      }
+
+      .callout-green {
+        background: #eaf4ee;
+        border-left: 4px solid var(--forest);
+        padding: 10px 12px;
+        border-radius: 8px;
+        font-size: 12.8px;
+        color: var(--forest);
+        margin-top: 10px;
+      }
+
+      .charter {
+        margin-top: 36px;
+        background: var(--paper-warm);
+        border: 1px solid rgba(201, 162, 75, 0.45);
+        border-radius: 18px;
+        padding: 26px 28px;
+      }
+
+      .charter h2 {
+        font-family: Georgia, "Times New Roman", serif;
+        margin: 0 0 10px;
+        font-size: 22px;
+        color: var(--forest);
+      }
+
+      .charter-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+        gap: 16px;
+        margin-top: 14px;
+      }
+
+      .charter-item strong {
+        display: block;
+        color: var(--forest);
+        font-size: 14px;
+        margin-bottom: 4px;
+      }
+
+      .charter-item span {
+        font-size: 13px;
+        color: var(--muted);
+      }
+
+      footer {
+        margin-top: 44px;
+        padding-top: 20px;
+        border-top: 1px solid var(--border);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 12px;
+        font-size: 12.5px;
+        color: var(--muted);
+      }
+
+      footer a {
+        color: var(--forest);
+        font-weight: 600;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="hero">
+        <div class="eyebrow">PreTest Studio · v2.5.0 Beta · Years 4 to 9</div>
+        <h1>Calm, Adaptive Entrance-Exam Prep for Your Child</h1>
+        <p>
+          Full preparation for 11+, the ISEB Common Pre-Test, and 13+ Common Entrance — with
+          visual lessons, a guardrailed Socratic coach, focus-sprint stamina training, and a
+          passcode-locked Parent Command Centre.
+        </p>
+        <div class="trust-strip">
+          <span class="trust-pill">Apple Signed &amp; Notarised</span>
+          <span class="trust-pill">100% Offline &amp; Private</span>
+          <span class="trust-pill">Zero Accounts or Ads</span>
+          <span class="trust-pill">Automatic Signed Updates</span>
+        </div>
+      </section>
+
+      <h2 class="section-title">1. Choose Your Device</h2>
+      <p class="section-sub">
+        The exact same adaptive study engine runs on Mac, Windows PCs, and school Chromebooks.
+      </p>
+
+      <div class="grid-3">
+        <article class="card">
+          <div>
+            <span class="card-tag tag-mac">Apple Signed &amp; Notarised</span>
+            <h2>Apple Mac</h2>
+            <p>
+              Works on every modern MacBook Air, MacBook Pro, iMac, and Mac mini (Apple Silicon
+              M1–M4 and Intel, macOS 11+).
+            </p>
+          </div>
+          <div>
+            <a
+              class="btn btn-mac"
+              href="https://github.com/GitDakky/pretest-studio-releases/releases/latest/download/PreTest-Studio-macOS-Universal.dmg"
+            >
+              Download for Mac (.dmg)
+            </a>
+            <div class="meta-note">16 MB · Opens cleanly on first click</div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div>
+            <span class="card-tag tag-win">Compact 5.2 MB Setup</span>
+            <h2>Windows 10 &amp; 11</h2>
+            <p>
+              Fast, self-contained installer for all modern 64-bit Windows laptops and desktops. No
+              administrator password required.
+            </p>
+          </div>
+          <div>
+            <a
+              class="btn btn-win"
+              href="https://github.com/GitDakky/pretest-studio-releases/releases/latest/download/PreTest-Studio-Windows-Setup.exe"
+            >
+              Download for Windows (.exe)
+            </a>
+            <div class="meta-note">5.2 MB · Automatic in-app updates</div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div>
+            <span class="card-tag tag-chrome">Zero Install · Works Offline</span>
+            <h2>Chromebook &amp; Chrome</h2>
+            <p>
+              Built for school-issued Chromebooks, Google Chrome, Microsoft Edge, Android tablets,
+              and iPads. Nothing to download or unlock.
+            </p>
+          </div>
+          <div>
+            <a class="btn btn-chrome" href="./app/">Launch Web App Now →</a>
+            <div class="meta-note">Runs offline inside your browser</div>
+          </div>
+        </article>
+      </div>
+
+      <h2 class="section-title">2. Simple 60-Second Setup</h2>
+      <p class="section-sub">
+        Plain-English steps written for parents — no technical experience needed.
+      </p>
+
+      <div class="steps-grid">
+        <div class="step-box">
+          <h3>On an Apple Mac</h3>
+          <ol>
+            <li>Open your <strong>Downloads</strong> folder and double-click the downloaded <strong>.dmg</strong> file.</li>
+            <li>Drag <strong>PreTest Studio</strong> onto your <strong>Applications</strong> folder.</li>
+            <li>Open <strong>Applications</strong> and double-click <strong>PreTest Studio</strong>.</li>
+          </ol>
+          <div class="callout-green">
+            <strong>Verified by Apple:</strong> Every Mac build is signed and notarised with an official Apple Developer ID, so it opens smoothly with zero warnings.
+          </div>
+        </div>
+
+        <div class="step-box">
+          <h3>On a Windows 10 or 11 PC</h3>
+          <ol>
+            <li>Open your <strong>Downloads</strong> folder and double-click <strong>PreTest-Studio-Windows-Setup.exe</strong>.</li>
+            <li>Follow the 15-second setup wizard — no Windows admin password needed.</li>
+            <li>Launch <strong>PreTest Studio</strong> from your Start Menu or Desktop.</li>
+          </ol>
+          <div class="callout">
+            <strong>Windows SmartScreen (Beta notice):</strong> If Windows shows a blue <em>“Windows protected your PC”</em> box, click <strong>More info</strong> and then <strong>Run anyway</strong>.
+          </div>
+        </div>
+
+        <div class="step-box">
+          <h3>On a Chromebook, Android or iPad</h3>
+          <ol>
+            <li>Click <strong>Launch Web App Now</strong> above in Chrome (or Safari on iPad).</li>
+            <li><strong>Optional:</strong> On a Chromebook or Chrome laptop, click the small <strong>Install</strong> icon on the right side of the address bar to pin it to your shelf.</li>
+            <li>On iPad, tap <strong>Share → Add to Home Screen</strong>. Works completely offline afterwards.</li>
+          </ol>
+        </div>
+      </div>
+
+      <section class="charter">
+        <h2>Our Family Privacy &amp; Trust Charter</h2>
+        <div class="charter-grid">
+          <div class="charter-item">
+            <strong>100% On-Device Data</strong>
+            <span>No logins, no cloud accounts, and zero third-party analytics. Your child's learning history never leaves your device.</span>
+          </div>
+          <div class="charter-item">
+            <strong>Anti-Gaming Integrity</strong>
+            <span>Questions stay locked on refresh, rapid guesses earn zero credit, and parents see honest Focus Cliff &amp; error diagnostics.</span>
+          </div>
+          <div class="charter-item">
+            <strong>Dyslexia &amp; ADHD Friendly</strong>
+            <span>Lexend &amp; Atkinson Hyperlegible fonts, warm paper tints, Reading Ruler, Read Aloud, and progressive 5–40 minute focus sprints.</span>
+          </div>
+          <div class="charter-item">
+            <strong>Cryptographically Verified</strong>
+            <span>Every release publishes public SHA-256 checksums and uses Ed25519-signed updates with plain-English “What's New” notes.</span>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <span>PreTest Studio v2.5.0 Beta · Independent educational studio (not affiliated with ISEB or CENTURY Tech)</span>
+        <span>
+          <a href="https://github.com/GitDakky/pretest-studio-releases">Release Notes &amp; Checksums</a>
+          &nbsp;·&nbsp;
+          <a href="./app/">Open Chromebook App</a>
+        </span>
+      </footer>
+    </main>
+  </body>
+</html>

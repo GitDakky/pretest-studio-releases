@@ -1,0 +1,24 @@
+{
+  "name": "PreTest Studio — Adaptive Entrance & Senior School Prep",
+  "short_name": "PreTest Studio",
+  "description": "Offline-first adaptive study studio for 11+, ISEB Common Pre-Test, 13+ Common Entrance and KS3 with progressive focus-sprint training.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#F4EFE3",
+  "theme_color": "#143628",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
