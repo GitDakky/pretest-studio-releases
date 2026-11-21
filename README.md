@@ -2,7 +2,7 @@
   <img src="docs/assets/banner.svg" alt="PreTest Studio — Adaptive Preparation for 11+, ISEB Common Pre-Test & 13+ Common Entrance" width="100%"/>
 </p>
 
-<p align="center"><a href="https://github.com/GitDakky/pretest-studio-releases/releases/latest"><img alt="Latest Version" src="https://img.shields.io/github/v/release/GitDakky/pretest-studio-releases?color=143628&label=Latest%20Version&logo=github"/></a><a href="https://github.com/GitDakky/pretest-studio-releases/releases/latest/download/PreTest-Studio-macOS-Universal.dmg"><img alt="Apple Mac Signed and Notarised" src="https://img.shields.io/badge/Apple%20Mac-Signed%20%26%20Notarised-1B4332?logo=apple&logoColor=white"/></a><a href="https://github.com/GitDakky/pretest-studio-releases/releases/latest/download/PreTest-Studio-Windows-Setup.exe"><img alt="Windows 10 and 11" src="https://img.shields.io/badge/Windows-10%20%26%2011%20Installer-1D3E52?logo=windows&logoColor=white"/></a><a href="https://gitdakky.github.io/pretest-studio-releases/app/"><img alt="Chromebook and Chrome" src="https://img.shields.io/badge/Chromebook%20%26%20Chrome-Launch%20App-9E4424?logo=googlechrome&logoColor=white"/></a><img alt="100% Private and Offline" src="https://img.shields.io/badge/Privacy-100%25%20Offline%20%26%20Private-C9A24B"/></p>
+<p align="center"><a href="https://github.com/GitDakky/pretest-studio-releases/releases/latest"><img alt="Latest Version" src="https://img.shields.io/github/v/release/GitDakky/pretest-studio-releases?color=143628&label=Version&logo=github"/></a>&nbsp;<a href="https://github.com/GitDakky/pretest-studio-releases/releases/latest/download/PreTest-Studio-macOS-Universal.dmg"><img alt="Apple Mac Notarised" src="https://img.shields.io/badge/macOS-Notarised-1B4332?logo=apple&logoColor=white"/></a>&nbsp;<a href="https://github.com/GitDakky/pretest-studio-releases/releases/latest/download/PreTest-Studio-Windows-Setup.exe"><img alt="Windows 10 and 11" src="https://img.shields.io/badge/Windows-10%20%26%2011-1D3E52?logo=windows&logoColor=white"/></a>&nbsp;<a href="https://gitdakky.github.io/pretest-studio-releases/app/"><img alt="Chromebook and Web" src="https://img.shields.io/badge/Chromebook-Web%20App-9E4424?logo=googlechrome&logoColor=white"/></a>&nbsp;<img alt="100% Private and Offline" src="https://img.shields.io/badge/Privacy-100%25%20Offline-B58D3D"/></p>
 
 <p align="center">
   <strong>Calm, intelligent entrance-exam preparation for Years 4 to 9 — built for real families, not noisy quiz streaks.</strong><br/>
@@ -10,13 +10,13 @@
 </p>
 
 <p align="center">
-  <strong><a href="https://gitdakky.github.io/pretest-studio-releases/">Open Parent Download Page</a></strong>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <strong><a href="https://gitdakky.github.io/pretest-studio-releases/">Parent Download Page</a></strong>
+  &nbsp;·&nbsp;
   <strong><a href="https://github.com/GitDakky/pretest-studio-releases/releases/latest/download/PreTest-Studio-macOS-Universal.dmg">Download for Mac</a></strong>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
+  &nbsp;·&nbsp;
   <strong><a href="https://github.com/GitDakky/pretest-studio-releases/releases/latest/download/PreTest-Studio-Windows-Setup.exe">Download for Windows</a></strong>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <strong><a href="https://gitdakky.github.io/pretest-studio-releases/app/">Open on Chromebook / Chrome</a></strong>
+  &nbsp;·&nbsp;
+  <strong><a href="https://gitdakky.github.io/pretest-studio-releases/app/">Open Chromebook Web App</a></strong>
 </p>
 
 ---
@@ -78,7 +78,7 @@ Many schools issue pupils a **Chromebook** where installing `.exe` or `.dmg` fil
 
 We designed PreTest Studio for our own families first, with strict privacy and academic integrity built into the foundation:
 
-* **Verified & Signed Releases:** Every Mac release is **Apple Developer ID Signed & Notarised** (checked by Apple's security servers before publication). Every automatic desktop update is cryptographically verified using an **Ed25519 signature** before it installs, and public **[`SHA256SUMS.txt`](https://github.com/GitDakky/pretest-studio-releases/releases/latest/download/SHA256SUMS.txt)** checksums are published with every release.
+* **Verified & Signed Releases:** Every Mac release is **Apple Developer ID Signed & Notarised** (Team ID `LFDZF22ZJ6`, verified by Apple's notary service before publication). Every automatic desktop update is cryptographically verified using an **Ed25519 signature** before it installs, and public **[`SHA256SUMS.txt`](https://github.com/GitDakky/pretest-studio-releases/releases/latest/download/SHA256SUMS.txt)** checksums are published with every release.
 * **100% Private & On-Device:** There are **no cloud accounts, no pupil logins, no adverts, and zero analytics tracking your child**. All scores, profiles, and practice logs stay strictly on your home computer or Chromebook.
 * **Cannot Be Gamed by Bright Children:** Refreshing a tricky question brings back the exact same locked question on the same clock. Rapid-clicking guesses below a realistic reading time earn zero score credit and trigger a calm pause. Switching windows mid-test (`Cmd+Tab` / `Alt+Tab`) is recorded quietly for parents.
 * **Simple Automatic Updates (Like Your iPhone):** Whenever we add new questions, lessons, or improvements, the desktop app lets you know calmly at the top of the screen (never during a test) with a plain-English **"What's New"** summary. Click **Update & Restart** once — all of your child's progress stays completely untouched.
